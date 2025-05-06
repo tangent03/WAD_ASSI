@@ -4,8 +4,8 @@ const Item = require('./models/Item');
 
 const app = express();
 const port = 3002;
-
-mongoose.connect('mongodb://localhost:27017/wad4', {
+// apna naam daal dena wad2 ki jgh
+mongoose.connect('mongodb+srv://maniac_psycho13:123Aryan.@cluster0.wflrtqr.mongodb.net/wad2', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log("MongoDB Connected"))
